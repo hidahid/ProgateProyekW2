@@ -31,7 +31,7 @@ header {
   border-radius: 20px;
 }
 
-.headerlogo {
+.headerlogo img {
   position: absolute;
   height: 67px;
   left: 138px;
@@ -44,7 +44,7 @@ a {
 
 .headermenu {
   position: absolute;
-  left: 906px;
+  left: 880px;
   top: 54px;
 
   font-weight: 400;
@@ -59,8 +59,8 @@ a {
 
 .headertext h1 {
   position: absolute;
-  right: 476px;
-  left: 477px;
+  right: 400px;
+  left: 400px;
   top: 239px;
 
   font-weight: 800;
@@ -73,8 +73,8 @@ a {
 
 .headertext h2 {
   position: absolute;
-  right: 470px;
-  left: 471px;
+  right: 370px;
+  left: 370px;
   top: 417px;
 
   font-weight: 400;
@@ -519,4 +519,1222 @@ footer {
 
 .contactmenu a {
   color: #f9fbfe;
+}
+
+/* RESPONSIVE PAGES STYLING 1315 PX BELOW */
+
+@media (max-width: 1315px) {
+  header {
+    height: 600px;
+  }
+
+  .headerback {
+    height: 600px;
+  }
+
+  .headerlogo img {
+    height: 55px;
+    left: 125px;
+    top: 30px;
+  }
+
+  .headermenu {
+    left: 805px;
+    top: 45px;
+
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .headermenu a {
+    padding: 20px;
+  }
+
+  .headertext h1 {
+    right: 375px;
+    left: 375px;
+    top: 200px;
+
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .headertext h2 {
+    right: 370px;
+    left: 370px;
+    top: 400px;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .whoarewe img {
+    height: 400px;
+    left: 200px;
+    top: 700px;
+  }
+
+  .whoarewe h1 {
+    width: 280px;
+    height: 50px;
+    left: 600px;
+    top: 700px;
+
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .whoarewe .rectangle1 {
+    width: 270px;
+    height: 5px;
+    left: 600px;
+    top: 770px;
+  }
+
+  .whoarewe h2 {
+    width: 450px;
+    height: 110px;
+    left: 600px;
+    top: 800px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .product h1 {
+    width: 360px;
+    height: 50px;
+    left: 200px;
+    top: 1200px;
+
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .product .rectangle2 {
+    width: 270px;
+    height: 5px;
+    left: 200px;
+    top: 1270px;
+  }
+
+  .product h2 {
+    width: 450px;
+    height: 50px;
+    left: 200px;
+    top: 1300px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .product .probutton {
+    width: 300px;
+    height: 60px;
+    left: 200px;
+    top: 1400px;
+
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  .product img {
+    height: 300px;
+    left: 730px;
+    top: 1200px;
+  }
+
+  .hangout img {
+    height: 350px;
+    left: 200px;
+    top: 1600px;
+  }
+
+  .hangout h1 {
+    width: 380px;
+    height: 50px;
+    left: 670px;
+    top: 1600px;
+
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .hangout .rectangle3 {
+    width: 270px;
+    height: 5px;
+    left: 670px;
+    top: 1670px;
+  }
+
+  .hangout p {
+    width: 450px;
+    height: 80px;
+    left: 670px;
+    top: 1700px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .hangout .hangbutton {
+    width: 300px;
+    height: 60px;
+    left: 670px;
+    top: 1800px;
+
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  .instagram h1 {
+    width: 855px;
+    height: 50px;
+    left: 200px;
+    top: 2050px;
+
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .instagram .feed1 {
+    height: 200px;
+    left: 200px;
+    top: 2150px;
+  }
+
+  .instagram .feed2 {
+    height: 200px;
+    left: 500px;
+    top: 2150px;
+  }
+
+  .instagram .feed3 {
+    height: 200px;
+    left: 800px;
+    top: 2150px;
+  }
+
+  .instagram .feed4 {
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    top: 2400px;
+  }
+
+  .instagram .feed5 {
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 2400px;
+  }
+
+  .instagram .feed6 {
+    width: 200px;
+    height: 200px;
+    left: 800px;
+    top: 2400px;
+  }
+
+  .askmore h1 {
+    width: 280px;
+    height: 50px;
+    left: 460px;
+    top: 2700px;
+
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .askmore h2 {
+    width: 850px;
+    height: 25px;
+    left: 180px;
+    top: 2800px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .askmore .askbutton {
+    width: 300px;
+    height: 60px;
+    left: 450px;
+    top: 2850px;
+
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  footer {
+    height: 300px;
+    left: 0px;
+    top: 3000px;
+  }
+
+  .footerlogo img {
+    width: 300px;
+    height: 55px;
+    left: 125px;
+    top: 70px;
+  }
+
+  .mailbutton img {
+    left: 125px;
+    top: 150px;
+  }
+
+  .phonebutton img {
+    left: 200px;
+    top: 150px;
+  }
+
+  .footermenu ul {
+    left: 650px;
+    top: 70px;
+
+    font-size: 25px;
+    line-height: 25px;
+    column-gap: 80px;
+  }
+
+  .productmenu {
+    left: 650px;
+    top: 130px;
+
+    font-size: 20px;
+    row-gap: 20px;
+  }
+
+  .storemenu {
+    left: 820px;
+    top: 130px;
+
+    font-size: 20px;
+    row-gap: 20px;
+  }
+
+  .contactmenu {
+    left: 950px;
+    top: 130px;
+
+    font-size: 20px;
+    row-gap: 20px;
+  }
+}
+
+/* RESPONSIVE PAGES STYLING 1155 PX BELOW */
+
+@media (max-width: 1155px) {
+  header {
+    height: 550px;
+  }
+
+  .headerback {
+    height: 550px;
+  }
+
+  .headerlogo img {
+    height: 50px;
+    left: 120px;
+    top: 25px;
+  }
+
+  .headermenu {
+    left: 650px;
+    top: 40px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .headermenu a {
+    padding: 20px;
+  }
+
+  .headertext h1 {
+    right: 300px;
+    left: 300px;
+    top: 150px;
+
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .headertext h2 {
+    right: 300px;
+    left: 300px;
+    top: 300px;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .whoarewe img {
+    height: 350px;
+    left: 150px;
+    top: 650px;
+  }
+
+  .whoarewe h1 {
+    width: 250px;
+    height: 40px;
+    left: 500px;
+    top: 650px;
+
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .whoarewe .rectangle1 {
+    width: 250px;
+    height: 5px;
+    left: 500px;
+    top: 700px;
+  }
+
+  .whoarewe h2 {
+    width: 350px;
+    height: 50px;
+    left: 500px;
+    top: 720px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .product h1 {
+    width: 350px;
+    height: 40px;
+    left: 150px;
+    top: 1100px;
+
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .product .rectangle2 {
+    width: 250px;
+    height: 5px;
+    left: 150px;
+    top: 1150px;
+  }
+
+  .product h2 {
+    width: 350px;
+    height: 50px;
+    left: 150px;
+    top: 1170px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .product .probutton {
+    width: 300px;
+    height: 50px;
+    left: 150px;
+    top: 1250px;
+
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .product img {
+    height: 300px;
+    left: 600px;
+    top: 1100px;
+  }
+
+  .hangout img {
+    height: 330px;
+    left: 150px;
+    top: 1500px;
+  }
+
+  .hangout h1 {
+    width: 350px;
+    height: 40px;
+    left: 600px;
+    top: 1500px;
+
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .hangout .rectangle3 {
+    width: 250px;
+    height: 5px;
+    left: 600px;
+    top: 1550px;
+  }
+
+  .hangout p {
+    width: 350px;
+    height: 50px;
+    left: 600px;
+    top: 1570px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .hangout .hangbutton {
+    width: 300px;
+    height: 50px;
+    left: 600px;
+    top: 1700px;
+
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .instagram h1 {
+    width: 700px;
+    height: 40px;
+    left: 150px;
+    top: 1900px;
+
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .instagram .feed1 {
+    height: 200px;
+    left: 120px;
+    top: 2000px;
+  }
+
+  .instagram .feed2 {
+    height: 200px;
+    left: 420px;
+    top: 2000px;
+  }
+
+  .instagram .feed3 {
+    height: 200px;
+    left: 720px;
+    top: 2000px;
+  }
+
+  .instagram .feed4 {
+    width: 200px;
+    height: 200px;
+    left: 120px;
+    top: 2300px;
+  }
+
+  .instagram .feed5 {
+    width: 200px;
+    height: 200px;
+    left: 420px;
+    top: 2300px;
+  }
+
+  .instagram .feed6 {
+    width: 200px;
+    height: 200px;
+    left: 720px;
+    top: 2300px;
+  }
+
+  .askmore h1 {
+    width: 250px;
+    height: 40px;
+    left: 400px;
+    top: 2550px;
+
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .askmore h2 {
+    width: 800px;
+    height: 25px;
+    left: 150px;
+    top: 2600px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .askmore .askbutton {
+    width: 300px;
+    height: 50px;
+    left: 380px;
+    top: 2650px;
+
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  footer {
+    height: 300px;
+    left: 0px;
+    top: 2800px;
+  }
+
+  .footerlogo img {
+    width: 300px;
+    height: 50px;
+    left: 100px;
+    top: 50px;
+  }
+
+  .mailbutton img {
+    left: 100px;
+    top: 125px;
+  }
+
+  .phonebutton img {
+    left: 175px;
+    top: 125px;
+  }
+
+  .footermenu ul {
+    left: 500px;
+    top: 50px;
+
+    font-size: 25px;
+    line-height: 25px;
+    column-gap: 75px;
+  }
+
+  .productmenu {
+    left: 500px;
+    top: 100px;
+
+    font-size: 20px;
+    row-gap: 20px;
+  }
+
+  .storemenu {
+    left: 663px;
+    top: 99px;
+
+    font-size: 20px;
+    row-gap: 20px;
+  }
+
+  .contactmenu {
+    left: 789px;
+    top: 99px;
+
+    font-size: 20px;
+    row-gap: 20px;
+  }
+}
+
+/* RESPONSIVE PAGES STYLING 1000 PX BELOW */
+
+@media (max-width: 1000px) {
+  header {
+    height: 500px;
+  }
+
+  .headerback {
+    height: 500px;
+  }
+
+  .headerlogo img {
+    height: 50px;
+    left: 100px;
+    top: 30px;
+  }
+
+  .headermenu {
+    left: 450px;
+    top: 30px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .headermenu a {
+    padding: 20px;
+  }
+
+  .headertext h1 {
+    right: 200px;
+    left: 200px;
+    top: 150px;
+
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .headertext h2 {
+    right: 200px;
+    left: 200px;
+    top: 280px;
+
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .whoarewe img {
+    height: 300px;
+    left: 100px;
+    top: 550px;
+  }
+
+  .whoarewe h1 {
+    width: 250px;
+    height: 35px;
+    left: 400px;
+    top: 550px;
+
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .whoarewe .rectangle1 {
+    width: 250px;
+    height: 5px;
+    left: 400px;
+    top: 600px;
+  }
+
+  .whoarewe h2 {
+    width: 300px;
+    height: 50px;
+    left: 400px;
+    top: 620px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .product h1 {
+    width: 300px;
+    height: 35px;
+    left: 100px;
+    top: 900px;
+
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .product .rectangle2 {
+    width: 250px;
+    height: 5px;
+    left: 100px;
+    top: 950px;
+  }
+
+  .product h2 {
+    width: 300px;
+    height: 50px;
+    left: 100px;
+    top: 970px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .product .probutton {
+    width: 250px;
+    height: 50px;
+    left: 100px;
+    top: 1050px;
+
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .product img {
+    height: 300px;
+    left: 450px;
+    top: 900px;
+  }
+
+  .hangout img {
+    height: 300px;
+    left: 100px;
+    top: 1250px;
+  }
+
+  .hangout h1 {
+    width: 300px;
+    height: 35px;
+    left: 450px;
+    top: 1250px;
+
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .hangout .rectangle3 {
+    width: 250px;
+    height: 5px;
+    left: 450px;
+    top: 1300px;
+  }
+
+  .hangout p {
+    width: 300px;
+    height: 50px;
+    left: 450px;
+    top: 1320px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .hangout .hangbutton {
+    width: 250px;
+    height: 50px;
+    left: 450px;
+    top: 1400px;
+
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .instagram h1 {
+    width: 700px;
+    height: 40px;
+    left: 80px;
+    top: 1600px;
+
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .instagram .feed1 {
+    height: 180px;
+    left: 50px;
+    top: 1700px;
+  }
+
+  .instagram .feed2 {
+    height: 180px;
+    left: 330px;
+    top: 1700px;
+  }
+
+  .instagram .feed3 {
+    height: 180px;
+    left: 600px;
+    top: 1700px;
+  }
+
+  .instagram .feed4 {
+    width: 180px;
+    height: 200px;
+    left: 50px;
+    top: 1950px;
+  }
+
+  .instagram .feed5 {
+    width: 180px;
+    height: 200px;
+    left: 330px;
+    top: 1950px;
+  }
+
+  .instagram .feed6 {
+    width: 180px;
+    height: 200px;
+    left: 600px;
+    top: 1950px;
+  }
+
+  .askmore h1 {
+    width: 200px;
+    height: 35px;
+    left: 320px;
+    top: 2200px;
+
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .askmore h2 {
+    width: 400px;
+    height: 20px;
+    left: 210px;
+    top: 2250px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .askmore .askbutton {
+    width: 250px;
+    height: 50px;
+    left: 300px;
+    top: 2330px;
+
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  footer {
+    height: 300px;
+    left: 0px;
+    top: 2450px;
+  }
+
+  .footerlogo img {
+    width: 250px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+  }
+
+  .mailbutton img {
+    width: 40px;
+    height: 40px;
+    left: 50px;
+    top: 125px;
+  }
+
+  .phonebutton img {
+    width: 40px;
+    height: 40px;
+    left: 125px;
+    top: 125px;
+  }
+
+  .footermenu ul {
+    left: 400px;
+    top: 50px;
+
+    font-size: 20px;
+    line-height: 25px;
+    column-gap: 70px;
+  }
+
+  .productmenu {
+    left: 400px;
+    top: 100px;
+
+    font-size: 18px;
+    row-gap: 18px;
+  }
+
+  .storemenu {
+    left: 540px;
+    top: 99px;
+
+    font-size: 18px;
+    row-gap: 18px;
+  }
+
+  .contactmenu {
+    left: 650px;
+    top: 99px;
+
+    font-size: 18px;
+    row-gap: 18px;
+  }
+}
+
+/* RESPONSIVE PAGES STYLING 400 PX BELOW */
+
+@media (max-width: 400px) {
+  header {
+    height: 450px;
+  }
+
+  .headerback {
+    height: 450px;
+  }
+
+  .headerlogo img {
+    width: 135px;
+    height: 25px;
+    left: 40px;
+    top: 20px;
+  }
+
+  .headermenu {
+    left: 55px;
+    top: 65px;
+
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .headertext h1 {
+    right: 50px;
+    left: 50px;
+    top: 150px;
+
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .headertext h2 {
+    right: 50px;
+    left: 50px;
+    top: 240px;
+
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .whoarewe img {
+    height: 200px;
+    left: 105px;
+    top: 500px;
+  }
+
+  .whoarewe h1 {
+    width: 150px;
+    height: 25px;
+    left: 40px;
+    top: 730px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .whoarewe .rectangle1 {
+    width: 100px;
+    height: 5px;
+    left: 40px;
+    top: 760px;
+  }
+
+  .whoarewe h2 {
+    width: 275px;
+    height: 50px;
+    left: 40px;
+    top: 780px;
+
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .product img {
+    height: 200px;
+    left: 90px;
+    top: 900px;
+  }
+
+  .product h1 {
+    width: 250px;
+    height: 25px;
+    left: 40px;
+    top: 1125px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .product .rectangle2 {
+    width: 150px;
+    height: 5px;
+    left: 40px;
+    top: 1155px;
+  }
+
+  .product h2 {
+    width: 275px;
+    height: 50px;
+    left: 40px;
+    top: 1175px;
+
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .product .probutton {
+    width: 150px;
+    height: 40px;
+    left: 40px;
+    top: 1220px;
+
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .hangout img {
+    height: 200px;
+    left: 85px;
+    top: 1325px;
+  }
+
+  .hangout h1 {
+    width: 250px;
+    height: 25px;
+    left: 40px;
+    top: 1550px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .hangout .rectangle3 {
+    width: 150px;
+    height: 5px;
+    left: 40px;
+    top: 1580px;
+  }
+
+  .hangout p {
+    width: 275px;
+    height: 50px;
+    left: 40px;
+    top: 1600px;
+
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .hangout .hangbutton {
+    width: 150px;
+    height: 40px;
+    left: 40px;
+    top: 1660px;
+
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .instagram h1 {
+    width: 250px;
+    height: 50px;
+    right: 70;
+    left: 60px;
+    top: 1730px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .instagram .feed1 {
+    width: 80px;
+    height: 80px;
+    left: 30px;
+    top: 1800px;
+  }
+
+  .instagram .feed2 {
+    width: 80px;
+    height: 80px;
+    left: 140px;
+    top: 1800px;
+  }
+
+  .instagram .feed3 {
+    width: 80px;
+    height: 80px;
+    left: 250px;
+    top: 1800px;
+  }
+
+  .instagram .feed4 {
+    width: 80px;
+    height: 80px;
+    left: 30px;
+    top: 1900px;
+  }
+
+  .instagram .feed5 {
+    width: 80px;
+    height: 80px;
+    left: 140px;
+    top: 1900px;
+  }
+
+  .instagram .feed6 {
+    width: 80px;
+    height: 80px;
+    left: 250px;
+    top: 1900px;
+  }
+
+  .askmore h1 {
+    width: 150px;
+    height: 25px;
+    left: 100px;
+    top: 2025px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .askmore h2 {
+    width: 270px;
+    height: 25px;
+    left: 40px;
+    top: 2065px;
+
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .askmore .askbutton {
+    width: 150px;
+    height: 40px;
+    left: 100px;
+    top: 2125px;
+
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  footer {
+    height: 350px;
+    left: 0px;
+    top: 2250px;
+  }
+
+  .footerlogo img {
+    width: 145px;
+    height: 30px;
+    left: 40px;
+    top: 20px;
+  }
+
+  .mailbutton img {
+    width: 25px;
+    height: 20px;
+    left: 255px;
+    top: 25px;
+  }
+
+  .phonebutton img {
+    width: 25px;
+    height: 20px;
+    left: 300px;
+    top: 25px;
+  }
+
+  .footermenu ul {
+    flex-direction: column;
+    left: 40px;
+    top: 80px;
+
+    font-size: 15px;
+    line-height: 15px;
+    row-gap: 75px;
+  }
+
+  .productmenu {
+    left: 120px;
+    top: 80px;
+
+    font-size: 14px;
+    row-gap: 14px;
+  }
+
+  .storemenu {
+    left: 70px;
+    top: 200px;
+
+    font-size: 14px;
+    row-gap: 14px;
+  }
+
+  .contactmenu {
+    left: 70px;
+    top: 290px;
+
+    font-size: 14px;
+    row-gap: 14px;
+  }
 }
