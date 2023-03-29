@@ -1,0 +1,443 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 145px;
+  left: 0px;
+  top: 0px;
+
+  background-color: #0f8b8d;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.headerlogo a img {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 39px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headermenu {
+  display: flex;
+  position: absolute;
+  left: 906px;
+  top: 54px;
+
+  font-weight: 400;
+  font-size: 30px;
+  column-gap: 50px;
+}
+
+.headermenu a {
+  color: #f9fbfe;
+}
+
+main {
+  width: 100%;
+}
+
+.detail img {
+  position: absolute;
+  height: 501.35px;
+  left: 97px;
+  top: 195px;
+}
+
+.detail h1 {
+  position: absolute;
+  width: 279px;
+  height: 58px;
+  left: 730px;
+  top: 294px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #0f8b8d;
+}
+
+.detail h2 {
+  position: absolute;
+  width: 456px;
+  height: 29px;
+  left: 730px;
+  top: 382px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.detail h3 {
+  position: absolute;
+  width: 313px;
+  height: 72px;
+  left: 730px;
+  top: 471px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+
+  color: #0f8b8d;
+}
+
+.description h1 {
+  position: absolute;
+  width: 246px;
+  height: 58px;
+  left: 257px;
+  top: 740px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #0f8b8d;
+}
+
+.description .rectangle {
+  position: absolute;
+  width: 381px;
+  height: 5px;
+  left: 257px;
+  top: 818px;
+
+  background: #ec9a29;
+}
+
+.description p {
+  position: absolute;
+  width: 920px;
+  height: 87px;
+  left: 257px;
+  top: 843px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.description .backbutton {
+  position: absolute;
+  width: 335px;
+  height: 70px;
+  left: 257px;
+  top: 975px;
+
+  background: #a8201a;
+  border-radius: 55px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 70px;
+  text-align: center;
+  color: #f9fbfe;
+
+  opacity: 0.8;
+}
+
+.description .backbutton:hover {
+  opacity: 1;
+}
+
+.description img {
+  position: absolute;
+  left: 280px;
+  top: 987px;
+  filter: invert(1);
+
+  transform: rotate(-180deg);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 460px;
+  left: 0px;
+  top: 1145px;
+
+  background: #143642;
+  border-radius: 20px;
+}
+
+.footerlogo img {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 80px;
+}
+
+.mailbutton img {
+  position: absolute;
+  left: 138px;
+  top: 178px;
+  filter: invert(1);
+}
+
+.phonebutton img {
+  position: absolute;
+  left: 205px;
+  top: 178px;
+  filter: invert(1);
+}
+
+.footermenu ul {
+  display: flex;
+  position: absolute;
+  left: 706px;
+  top: 80px;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 29px;
+  column-gap: 90px;
+}
+
+.footermenu li {
+  color: #ec9a29;
+  list-style: none;
+}
+
+.productmenu {
+  display: grid;
+  position: absolute;
+  left: 706px;
+  top: 139px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  row-gap: 30px;
+}
+
+.productmenu a {
+  color: #f9fbfe;
+}
+
+.storemenu {
+  display: grid;
+  position: absolute;
+  left: 901px;
+  top: 139px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  row-gap: 30px;
+}
+
+.storemenu a {
+  color: #f9fbfe;
+}
+
+.contactmenu {
+  display: grid;
+  position: absolute;
+  left: 1054px;
+  top: 139px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  row-gap: 30px;
+}
+
+.contactmenu a {
+  color: #f9fbfe;
+}
+
+/* ======================================= */
+/* RESPONSIVE PAGES STYLING 1300 PX BELOW */
+/* ======================================*/
+
+@media (max-width: 1300px) {
+  /* HEADER */
+
+  header {
+    height: 140px;
+  }
+
+  .headerlogo a img {
+    width: 330px;
+    height: 60px;
+    left: 130px;
+    top: 35px;
+  }
+
+  .headermenu {
+    left: 700px;
+    top: 50px;
+    font-size: 30px;
+    column-gap: 50px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 450px;
+    left: 0px;
+    top: 1200px;
+  }
+
+  .footerlogo img {
+    width: 330px;
+    height: 60px;
+    left: 130px;
+    top: 75px;
+  }
+
+  .mailbutton img {
+    left: 130px;
+    top: 170px;
+  }
+
+  .phonebutton img {
+    left: 200px;
+    top: 170px;
+  }
+
+  .footermenu ul {
+    left: 606px;
+    top: 80px;
+
+    font-size: 30px;
+    line-height: 29px;
+    column-gap: 90px;
+  }
+
+  .productmenu {
+    left: 606px;
+    top: 139px;
+
+    font-size: 24px;
+    row-gap: 30px;
+  }
+
+  .storemenu {
+    left: 801px;
+    top: 139px;
+
+    font-size: 24px;
+    row-gap: 30px;
+  }
+
+  .contactmenu {
+    left: 954px;
+    top: 139px;
+
+    font-size: 24px;
+    row-gap: 30px;
+  }
+
+  /* MAIN */
+
+  .detail img {
+    height: 501.35px;
+    left: 50px;
+    top: 195px;
+  }
+
+  .detail h1 {
+    width: 279px;
+    height: 58px;
+    left: 600px;
+    top: 294px;
+
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .detail h2 {
+    width: 456px;
+    height: 29px;
+    left: 600px;
+    top: 382px;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .detail h3 {
+    width: 313px;
+    height: 72px;
+    left: 600px;
+    top: 471px;
+
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .description h1 {
+    width: 246px;
+    height: 58px;
+    left: 200px;
+    top: 740px;
+
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .description .rectangle {
+    width: 381px;
+    height: 5px;
+    left: 200px;
+    top: 818px;
+  }
+
+  .description p {
+    width: 880px;
+    height: 87px;
+    left: 200px;
+    top: 843px;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .description .backbutton {
+    width: 335px;
+    height: 70px;
+    left: 200px;
+    top: 975px;
+
+    font-size: 24px;
+    line-height: 70px;
+  }
+
+  .description img {
+    left: 220px;
+    top: 987px;
+  }
+}
