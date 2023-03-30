@@ -539,7 +539,6 @@ footer {
   }
 
   .detail h1 {
-    width: 120px;
     height: 25px;
     left: 40px;
     top: 400px;
@@ -549,7 +548,6 @@ footer {
   }
 
   .detail h2 {
-    width: 220px;
     height: 15px;
     left: 40px;
     top: 430px;
@@ -559,7 +557,6 @@ footer {
   }
 
   .detail h3 {
-    width: 200px;
     height: 35px;
     left: 40px;
     top: 460px;
